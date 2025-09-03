@@ -15,24 +15,27 @@
     {
         Console.WriteLine("Ingrese el numero del producto que desea llevar: ");
         prod = Convert.ToInt32(Console.ReadLine());
-        switch (prod)
-        {
-            case 1:
-                precio = 350;
-                total += precio;
-                break;
-            case 2:
-                precio = 600;
-                total += precio;
-                break;
-            case 3:
-                precio = 150;
-                total += precio;
-                break;
-            case 4:
-                precio = 500;
-                total += precio;
-                break;
+            switch (prod)
+            {
+                case 1:
+                    precio = 350;
+                    total += precio;
+                    break;
+                case 2:
+                    precio = 600;
+                    total += precio;
+                    break;
+                case 3:
+                    precio = 150;
+                    total += precio;
+                    break;
+                case 4:
+                    precio = 500;
+                    total += precio;
+                    break;
+                case 99:
+                    Console.WriteLine("Calculando...");
+                    break;
             default:
                 Console.WriteLine("Ingrese un numero entre 1 - 4");
                 break;
