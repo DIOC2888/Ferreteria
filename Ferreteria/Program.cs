@@ -9,7 +9,7 @@
     Console.WriteLine("2.....Taladro...C$600.00");
     Console.WriteLine("3.....Tubo PVC..C$150.00");
     Console.WriteLine("4.....Llave Inglesa.C$500.00");
-    Console.WriteLine("Ingrese '99' para salir");
+    Console.WriteLine("Ingrese '0' para salir");
 
     do
     {
@@ -33,7 +33,7 @@
                     precio = 500;
                     total += precio;
                     break;
-                case 99:
+                case 0:
                     Console.WriteLine("Calculando...");
                     break;
             default:
