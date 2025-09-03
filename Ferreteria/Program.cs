@@ -32,7 +32,6 @@
                 case 4:
                     precio = 500;
                     total += precio;
-                    Console.WriteLine("OREOOE");
                     break;
                 case 99:
                     Console.WriteLine("Calculando...");
